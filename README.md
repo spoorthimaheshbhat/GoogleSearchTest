@@ -5,6 +5,11 @@ Mini-Project : Test Automation for Google Search Page using Selenium, TestNG, an
 This mini-project automates UI testing of the Google Search homepage using **Selenium**, **TestNG**, and **Maven**, with test steps defined in an **Excel file** using **Apache POI**.
 
 ---
+## Table of Contents
+- [Project Highlights](#project-highlights)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [How to Run the Project](#how-to-run-the-project)
 
 ##  Project Highlights
 
@@ -30,15 +35,15 @@ This mini-project automates UI testing of the Google Search homepage using **Sel
 
 ## Project Structure
 
+```plaintext
 GoogleSearchUITestAutomation/
 │
 ├── src/
 │ ├── main/java/
 │ │ ├── ExcelReader.java # Reads test steps from Excel
 │ │ └── ScreenshotUtil.java # Captures screenshots
-│ └── test/java/GoogleUIValidationTest.java # Main test class
-│      └── resources/testdata.xlsx # Excel file with test steps
-│
+│ └── test/java/
+│     └── GoogleUIValidationTest.java # Main test class
 ├── pom.xml # Maven config
 ├── testng.xml # TestNG config
 └── README.md # Project description
@@ -49,7 +54,7 @@ GoogleSearchUITestAutomation/
    ```bash
    git clone https://github.com/spoorthimaheshbhat/GoogleSearchUITestAutomation.git
 
-2.  **Runt the test**
+2.  **Run the test**
    cmd: mvn clean test site
 
 3. **View reports**
