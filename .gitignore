@@ -1,0 +1,16 @@
+# Maven build folder
+/target/
+
+# Logs
+*.log
+
+# IDE files
+.idea/
+*.iml
+
+# Excel data
+*.xlsx
+
+# OS-specific
+.DS_Store
+Thumbs.db
