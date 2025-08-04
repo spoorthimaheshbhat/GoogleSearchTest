@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>TestNG:  Google UI Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Google UI Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 02 15:52:11 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22060 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC14, -, takeshot, -, Screenshot taken</td>
+<td></td>
+<td>3</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC3, About, displayed, //a[@class='MV3Tnb' and text()='About'], About is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC10, Google Search button, displayed, //div[@class='FPdoLc lJ9FBc']//input[@class='gNO89b'][@name='btnK'], Google Search button is visible</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC12, Search Bar, click, //textarea[@class='gLFyf'], Clicked inside search bar</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC4, Store, displayed, //a[@class='MV3Tnb' and text()='Store'], Store is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC11, India, displayed, //div[@class='uU7dJb' and text()='India'], location in footer "India" is visible</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC1, Google Logo, displayed, //div[@class='k1zIA rSk4se'], Google logo is visible</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC2, Search Bar, displayed, //div[@class='RNNXgb'], Search Bar is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC6, Images, displayed, //a[@class='gb_X' and text()='Images'], Images is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC8, Account Sign in button, displayed, //div[@class='gb_z'], Account Sign in button is visible</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC13, Search Bar, sendkeys, //textarea[@class='gLFyf'], text entered</td>
+<td></td>
+<td>3</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC9, I'm Feeling Lucky button, displayed, //div[@class='FPdoLc lJ9FBc']//input[@class='RNmpXc'][@name='btnI'], I'm Feeling Lucky button is visible</td>
+<td></td>
+<td>1</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC7, Google Apps, displayed, //a[@class='gb_B'][@aria-label="Google apps"], Google Apps is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+<tr>
+<td title='com.demo.GoogleUIValidationTest.validateGoogleSearchUI()'><b>validateGoogleSearchUI</b><br>Test class: com.demo.GoogleUIValidationTest<br>Parameters: TC5, Gmail, displayed, //a[@class='gb_X' and contains(text(), 'Gmail')], Gmail is visible</td>
+<td></td>
+<td>0</td>
+<td>com.demo.GoogleUIValidationTest@5e0826e7</td></tr>
+</table><p>
+</body>
+</html>

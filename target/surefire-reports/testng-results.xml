@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-02T15:52:11 IST" name="Google UI Validation Suite" finished-at="2025-08-02T15:52:33 IST" duration-ms="22060">
+    <groups>
+    </groups>
+    <test started-at="2025-08-02T15:52:11 IST" name="Google UI Tests" finished-at="2025-08-02T15:52:33 IST" duration-ms="22060">
+      <class name="com.demo.GoogleUIValidationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:11 IST" name="setup" finished-at="2025-08-02T15:52:14 IST" duration-ms="3315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:15 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:16 IST" duration-ms="1020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google Logo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='k1zIA rSk4se']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google logo is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:16 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:17 IST" duration-ms="752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search Bar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='RNNXgb']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Search Bar is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:17 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:17 IST" duration-ms="517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[About]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//a[@class='MV3Tnb' and text()='About']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[About is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:17 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:18 IST" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Store]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//a[@class='MV3Tnb' and text()='Store']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Store is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:18 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:18 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gmail]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//a[@class='gb_X' and contains(text(), 'Gmail')]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Gmail is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:18 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:19 IST" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Images]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//a[@class='gb_X' and text()='Images']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Images is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:19 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:20 IST" duration-ms="968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google Apps]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//a[@class='gb_B'][@aria-label="Google apps"]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google Apps is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:20 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:21 IST" duration-ms="1204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Account Sign in button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='gb_z']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Account Sign in button is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:21 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:23 IST" duration-ms="1137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[I'm Feeling Lucky button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='FPdoLc lJ9FBc']//input[@class='RNmpXc'][@name='btnI']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[I'm Feeling Lucky button is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:23 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:24 IST" duration-ms="1214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Google Search button]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='FPdoLc lJ9FBc']//input[@class='gNO89b'][@name='btnK']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Google Search button is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:24 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:25 IST" duration-ms="1213" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[displayed]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@class='uU7dJb' and text()='India']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[location in footer "India" is visible]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:25 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:26 IST" duration-ms="1021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search Bar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//textarea[@class='gLFyf']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Clicked inside search bar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:26 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:29 IST" duration-ms="3351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Search Bar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sendkeys]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//textarea[@class='gLFyf']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[text entered]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method signature="validateGoogleSearchUI(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:29 IST" name="validateGoogleSearchUI" data-provider="uiData" finished-at="2025-08-02T15:52:33 IST" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[takeshot]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[-]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Screenshot taken]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGoogleSearchUI -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.demo.GoogleUIValidationTest@5e0826e7]" started-at="2025-08-02T15:52:33 IST" name="tearDown" finished-at="2025-08-02T15:52:33 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demo.GoogleUIValidationTest -->
+    </test> <!-- Google UI Tests -->
+  </suite> <!-- Google UI Validation Suite -->
+</testng-results>
