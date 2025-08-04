@@ -15,7 +15,7 @@ This mini-project automates UI testing of the Google Search homepage using **Sel
 
 ---
 
-## 🛠Tech Stack
+## Tech Stack
 
 | Tool         | Purpose                      |
 |--------------|-------------------------------|
